@@ -12,15 +12,15 @@ The "benchmark_git.py" script is used to generate the final results. It uses the
 The "evaluate_prequential_NN.py" script is used for the streaming evaluation. This file should be placed in the corresponding folder of the scikit-multiflow package: '.../scikit-multiflow-master/src/skmultiflow/evaluation'
 
 The following scripts are modified versions of the original algorithms for the scikit-multiflow framework in order to consider the GRF attributes. They should be placed in the corresponding folder. They are: 
-GRF_HoeffdingTree.py--> '.../scikit-multiflow-master/src/skmultiflow/trees/'
-GRF_HoeffdingAdaptiveTree.py--> '.../scikit-multiflow-master/src/skmultiflow/trees/'
-GRF_KNN.py--> '.../scikit-multiflow-master/src/skmultiflow/lazy/'
+- GRF_HoeffdingTree.py--> '.../scikit-multiflow-master/src/skmultiflow/trees/'
+- GRF_HoeffdingAdaptiveTree.py--> '.../scikit-multiflow-master/src/skmultiflow/trees/'
+- GRF_KNN.py--> '.../scikit-multiflow-master/src/skmultiflow/lazy/'
 
 The following scripts are modified versions of the original algorithms for the scikit-learn framework in order to consider the GRF attributes. They should be placed in the corresponding folder. They are: 
-GRF_GaussianNB.py--> '.../lib/python3.6/site-packages/sklearn'
-GRF_PassiveAgressiveClassifier.py--> '.../lib/python3.6/site-packages/sklearn/linear_model'
-GRF_MLPClassifier.py--> '.../lib/python3.6/site-packages/sklearn/neural_network'
-GRF_SGDClassifier.py--> '.../lib/python3.6/site-packages/sklearn/linear_model'
+- GRF_GaussianNB.py--> '.../lib/python3.6/site-packages/sklearn'
+- GRF_PassiveAgressiveClassifier.py--> '.../lib/python3.6/site-packages/sklearn/linear_model'
+- GRF_MLPClassifier.py--> '.../lib/python3.6/site-packages/sklearn/neural_network'
+- GRF_SGDClassifier.py--> '.../lib/python3.6/site-packages/sklearn/linear_model'
 
 --------
 DATA
