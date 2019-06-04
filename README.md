@@ -9,7 +9,7 @@ Stream data processing has gained progressive momentum with the arriving of new 
 ---------
 THE CODE
 ---------
-- Required frameworks: scikit-multiflow, scikit-learn
+- Required frameworks: scikit-multiflow (https://scikit-multiflow.github.io/) and scikit-learn
 - Dependencies: texttable, collections, statsmodels.stats.contingency_tables, pandas, numpy, math, warnings, pickle, scipy.io, scipy.stats, matplotlib.pyplot, seaborn 
 
 The "benchmark_git.py" script is used to generate the final results. It uses the scikit-learn framework (GaussianNB, PassiveAgressiveClassifier, MLPClassifier, and SGDClassifier techniques). It also uses the scikit-multiflow framework (HoeffdingTree, HoeffdingAdaptiveTree, and KNN techniques, and also the ADWIN drift detector).
