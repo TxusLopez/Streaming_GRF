@@ -1,6 +1,11 @@
 # Streaming_GRF
 Gaussian Receptive Fields for Stream Learning 
 
+------------
+DESCRIPTION
+------------
+Stream data processing has gained progressive momentum with the arriving of new stream applications and big data scenarios. One of the most promising Spiking Neural Network technique for stream learning is the Evolving Spiking Neural Network, which uses an interesting population encoding scheme (the Gaussian receptive fields) to transform the incoming stimuli into spikes. These files have been used to carried out a study that sheds lights on their use for stream learning, and focuses on applying them as a pre-processing technique to any dataset in order to gain representativeness, and to boost the predictive performance of the stream learning methods. Experiments with synthetic and real data sets have been carried out, and lead to think that their use could be applied successfully as a general pre-processing technique in many real cases.
+
 --------
 CODE
 --------
