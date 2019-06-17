@@ -369,6 +369,10 @@ class EvaluatePrequential_NN(StreamEvaluator):
                 X, y = self.stream.next_sample(self.batch_size)
 
                 if X is not None and y is not None:
+                    
+                    #Here we can update the min_max_data
+                    #TO DO
+                    
                     # Test
                     prediction = [[] for _ in range(self.n_models)]
                     for i in range(self.n_models):
@@ -428,6 +432,9 @@ class EvaluatePrequential_NN(StreamEvaluator):
                                     
                                     else:                                    
                                         self.model[i]=self.classifiers_init[i]
+                                        
+                                        #Here we can re-calculate the min_max_data, and pre-train the classifiers
+                                        #TO DO                                        
 
                             else:
 
