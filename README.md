@@ -47,3 +47,14 @@ The following real-world datasets are provided:
 - electricity
 - moving squares
 - Airlines
+
+---------
+CITATION
+---------
+
+@article{lobo2019exploiting,
+  title={Exploiting a Stimuli Encoding Scheme of Spiking Neural Networks for Stream Learning},
+  author={Lobo, Jesus L and Oregi, Izaskun and Bifet, Albert and Del Ser, Javier},
+  journal={arXiv preprint arXiv:1908.08018},
+  year={2019}
+}
