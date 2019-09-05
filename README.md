@@ -52,6 +52,8 @@ The following real-world datasets are provided:
 CITATION
 ---------
 
+If you want to cite this work in a scientific publication, please use the following Bibtex entry:
+
 @article{lobo2019exploiting,
   title={Exploiting a Stimuli Encoding Scheme of Spiking Neural Networks for Stream Learning},
   author={Lobo, Jesus L and Oregi, Izaskun and Bifet, Albert and Del Ser, Javier},
